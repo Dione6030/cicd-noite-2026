@@ -4,9 +4,6 @@ name: CI Pipeline - Build e Teste (TS/Docker)
 
 on:
 
-    push:
-        branches: [ "main" ]
-
     pull_request:
         branches: [ "main" ]
 
